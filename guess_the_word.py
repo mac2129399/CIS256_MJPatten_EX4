@@ -2,6 +2,8 @@
 # CIS256 Fall 2025
 # EX 4
 
+# Added comment to show branching
+
 import random
 
 # Create a predefined list of words
