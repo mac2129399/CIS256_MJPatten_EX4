@@ -55,11 +55,12 @@ def play_game():
 
         print("Current word:", hidden)
 
+    # User correctly guesses the word using letters
         if "*" not in hidden:
             print(f"\nCongrats! You guessed the word: {random_word}")
             break
 
-    # Out of attempts
+    # User ran out of attempts
         if attempts == 0:
             print(f"\nYou ran out of attempts! The word was: {random_word}")
             break
