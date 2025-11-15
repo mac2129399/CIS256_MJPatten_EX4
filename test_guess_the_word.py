@@ -24,10 +24,10 @@ def test_reveal_letters_incorrect_guess():
 
 
 def test_is_correct_guess_true():
-    """Full-word guess is correct."""
+    """Full word guess is correct."""
     assert guess_the_word.is_correct_guess("purple", "purple") is True
 
 
 def test_is_correct_guess_false():
-    """Full-word guess is incorrect."""
+    """Full word guess is incorrect."""
     assert guess_the_word.is_correct_guess("purple", "orange") is False
